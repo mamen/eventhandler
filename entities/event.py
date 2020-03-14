@@ -1,5 +1,5 @@
-from entities.missionType import MissionType
-from entities.planetType import PlanetType
+from entities.mission_type import MissionType
+from entities.planet_type import PlanetType
 
 
 class Event:
@@ -16,7 +16,7 @@ class Event:
     loadedMetal: float
     loadedCrystal: float
     loadedDeuterium: float
-    returning: bool
+    inQueue: bool
     processed: bool
 
     def __init__(self, db_row):

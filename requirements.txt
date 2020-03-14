@@ -4,3 +4,4 @@ protobuf==3.6.1
 python-dotenv==0.12.0
 redis==3.4.1
 six==1.14.0
+pika==1.1.0
