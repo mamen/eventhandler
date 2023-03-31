@@ -2,6 +2,6 @@ dnspython==1.16.0
 mysql-connector-python==8.0.19
 protobuf==3.6.1
 python-dotenv==0.12.0
-redis==3.4.1
+redis==4.4.4
 six==1.14.0
 pika==1.1.0
